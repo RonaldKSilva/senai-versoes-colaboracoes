@@ -3,3 +3,26 @@ SENAI EAD - CURSO DE QUALIFICAÇÃO PROGRAMADOR FULL STACK - Turma 02
 UC 07 - Versionamento
 
 Atividade 01 : Utilizar uma ferramenta de versionamento de códigos
+
+1º Passo: Criar arquivo .txt na pasta C:\SENAI EAD 2021\UC 07 Versionamento\GIT\senai-versoes-colaboracoes
+2º Passo: Iniciar o Git Bash na pasta e realizar o comando:
+$ git init
+3º Passo: Configurar o nome do usuário e o respectivo e-mail com os comandos: 
+$ git config --global user.name "RonaldKSilva"
+$ git config --global user.email "ronaldksilva@gmail.com"
+Verificar a situação atual na pasta do repositório local:
+$ git status
+Carregar o arquivo UC 07 Atividade 01.txt para a staging:
+$ git add .
+Verificar a situação atual na pasta do repositório local:
+$ git status
+Salvar as informações da staging no repositório local:
+$ git commit -m "UC 07 Atividade 01"
+Visualizar as alterações no repositório local:
+$ git log
+Visualizar a situação do repositório remoto = origin  https://github.com/RonaldKSilva/senai-versoes-colaboracoes.git:
+$ git remote -v
+Publicar as alterações no repositório remoto:
+$ git push -u origin master
+Visualizar a publicação no repositório remoto:
+Atualizar o arquivo Readme.md
