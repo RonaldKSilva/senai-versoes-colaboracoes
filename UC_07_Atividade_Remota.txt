@@ -38,8 +38,8 @@ $ git fetch
 $ git branch -a
 Voltar no Git para a branch master:
 $ git checkout master
-Fundir os arquivos "UC_07_Atividade_Remota.txt" existentes nas branches "master" e "remote_develop" que possuem conteúdos diferentes
-$ git merge remote_develop
+Fundir os arquivos "UC_07_Atividade_Remota.txt" existentes nas branches "master" e "remote_development" que possuem conteúdos diferentes
+$ git merge origin/remote_development
 Após verificar o resultado do comando merge, atualizar o arquivo final nos repositórios local e remoto:
 $ git add .
 $ git commit -m "Salvar o arquivo fundido e atualizado na branch master"
