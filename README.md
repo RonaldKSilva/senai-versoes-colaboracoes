@@ -9,10 +9,12 @@
 ## git config --global user.email "ronaldksilva@gmail.com"
 ## git status
 ## git add .
-## git commit -m "UC 07 Atividade 01"
+## git commit -m "UC_07_Atividade_01"
 ## git log
 ## git remote -v
 ## git push -u origin master
 ## git pull
-# Os passos da metodologia aplicada nesta primeira atividade foram objetivamente relacionados no arquivo "UC 07 Atividade 01.txt"
+# Os passos da metodologia aplicada nesta primeira atividade foram objetivamente relacionados no arquivo "UC_07_Atividade_01.txt"
 # Foram ajustados os nomes dos arquivos ".txt" substituindo espaços por underline
+# Foi visualizada a situação atualizada do repositório remoto no GitHub
+# Foi atualizado o repositório local
