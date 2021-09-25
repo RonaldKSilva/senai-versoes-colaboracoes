@@ -25,9 +25,17 @@ $ git remote -v
 Publicar as alterações no repositório remoto:
 $ git push -u origin master
 Criar a branch "remote_development":
-git checkout -b "remote_development"
+$ git branch remote_development
+Mudar para a branch "remote_development":
+$ git checkout remote_development
+Carregar o arquivo UC_07_Atividade_Remota.txt para a staging:
+$ git add .
+Salvar as informações da staging no repositório local:
+$ git commit -m "Salvar o arquivo UC_07_Atividade_Remota.txt na branch remote_development"
+Publicar as alterações no repositório remoto:
+$ git push -u origin remote_development
+Visualizar a publicação no repositório remoto "origin" no GitHub
 
-Visualizar a publicação no repositório remoto:
 Atualizar o arquivo Readme.md
 Atualizar o repositório local:
 $ git pull
