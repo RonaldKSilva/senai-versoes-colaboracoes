@@ -1,0 +1,50 @@
+SENAI EAD - CURSO DE QUALIFICAÇÃO PROGRAMADOR FULL STACK - Turma 02
+Aluno: Ronald Kelley da Silva
+UC 07 - Versionamento
+Atividade do Encontro Remoto 01 : Utilizar as ferramentas de versionamento de códigos, exercitando os comandos para os recursos de branch e trunk, incluindo o comando "merge"
+1º Passo: Criar arquivo UC_07_Atividade_Remota.txt na pasta C:\SENAI EAD 2021\UC 07 Versionamento\GIT\senai-versoes-colaboracoes
+2º Passo: Iniciar o Git Bash na pasta e realizar o comando:
+$ git init
+3º Passo: Configurar o nome do usuário e o respectivo e-mail com os comandos: 
+$ git config --global user.name "RonaldKSilva"
+$ git config --global user.email "ronaldksilva@gmail.com"
+Verificar a situação atual na pasta do repositório local:
+$ git status
+Carregar o arquivo UC_07_Atividade_Remota.txt para a staging:
+$ git add .
+Verificar a situação atual na pasta do repositório local:
+$ git status
+Salvar as informações da staging no repositório local:
+$ git commit -m "UC_07_Atividade_Remota"
+Visualizar as alterações no repositório local:
+$ git log
+Visualizar a situação do repositório remoto = origin  https://github.com/RonaldKSilva/senai-versoes-colaboracoes.git:
+$ git remote -v
+Publicar as alterações no repositório remoto:
+$ git push -u origin master
+Criar a branch "remote_development":
+$ git branch remote_development
+Mudar para a branch "remote_development":
+$ git checkout remote_development
+Carregar o arquivo UC_07_Atividade_Remota.txt para a staging:
+$ git add .
+Salvar as informações da staging no repositório local:
+$ git commit -m "Salvar o arquivo UC_07_Atividade_Remota.txt na branch remote_development"
+Publicar as alterações no repositório remoto:
+$ git push -u origin remote_development
+Visualizar a publicação no repositório remoto "origin" no GitHub
+Verificar no Git as branches remotas existentes:
+$ git fetch
+$ git branch -a
+Voltar no Git para a branch master:
+$ git checkout master
+Fundir os arquivos "UC_07_Atividade_Remota.txt" existentes nas branches "master" e "remote_development" que possuem conteúdos diferentes
+$ git merge origin/remote_development
+Após verificar o resultado do comando merge, atualizar o arquivo final nos repositórios local e remoto:
+$ git add .
+$ git commit -m "Salvar o arquivo fundido e atualizado na branch master"
+$ git push -u origin master
+Visualizar a publicação no repositório remoto "origin" no GitHub
+Atualizar o arquivo Readme.md
+Atualizar o repositório local:
+$ git pull
