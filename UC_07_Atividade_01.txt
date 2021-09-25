@@ -26,3 +26,5 @@ Publicar as alterações no repositório remoto:
 $ git push -u origin master
 Visualizar a publicação no repositório remoto:
 Atualizar o arquivo Readme.md
+Atualizar o repositório local:
+$ git pull
