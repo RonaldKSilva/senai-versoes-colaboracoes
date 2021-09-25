@@ -1,0 +1,5 @@
+SENAI EAD - CURSO DE QUALIFICAÇÃO PROGRAMADOR FULL STACK - Turma 02
+
+UC 07 - Versionamento
+
+Atividade 01 : Utilizar uma ferramenta de versionamento de códigos
