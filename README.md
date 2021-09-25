@@ -15,3 +15,4 @@
 ## git push -u origin master
 ## git pull
 # Os passos da metodologia aplicada nesta primeira atividade foram objetivamente relacionados no arquivo "UC 07 Atividade 01.txt"
+# Foram ajustados os nomes dos arquivos ".txt" substituindo espaços por underline
