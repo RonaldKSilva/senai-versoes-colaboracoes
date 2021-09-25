@@ -18,3 +18,4 @@
 # Foram ajustados os nomes dos arquivos ".txt" substituindo espaços por underline
 # Foi visualizada a situação atualizada do repositório remoto no GitHub
 # Foi atualizado o repositório local
+# Foi realizada a Atividade do Encontro Remoto 01 da UC 07 exercitando na prática a utilização das ferramentas Git e GitHub, acrecentando as funções para criação de e utilização de novas branch, além da utilização do comando merge para juntar o conteúdo de arquivos de trabalho com mesmo nome, mas desenvolvidos separadamente em branch de homologação, que denominamos remote_development. Ao final, atualizamos os repositórios remoto e local.
