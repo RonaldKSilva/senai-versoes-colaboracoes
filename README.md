@@ -21,35 +21,20 @@
 9. Durante as atividades realizadas, foram necessários os comandos:
 
 ```
-
 git init
-
 git config --global user.name "RonaldKSilva"
-
 git config --global user.email "ronaldksilva@gmail.com"
-
 git status
-
 git add .
-
 git commit -m
-
 git log
-
 git remote -v
-
 git push -u
-
 git pull
-
 git branch -a
-
 git fetch
-
 git checkout
-
 git merge
-
 ```
 
 10. Foram ajustados os nomes dos arquivos ".txt" substituindo espaços por underline
