@@ -2,7 +2,7 @@
 
 *Aluno: Ronald Kelley da Silva*
 
-**senai-versoes-colaboracoes/tree/activities**
+**RonaldKSilva/senai-versoes-colaboracoes/tree/activities**
 
 1. Na branch "activities" estão os trabalhos realizados para a UC 08 - Lógica de Programação.
 
