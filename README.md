@@ -1,7 +1,11 @@
 **SENAI EAD - Programador Full Stack T2**
 
 *Aluno: Ronald Kelley da Silva*
+
+**RonaldKSilva/senai-versoes-colaboracoes/tree/remote_development**
+
 1. Foi realizada a Atividade do Encontro Remoto 01 da UC 07 exercitando na prática a utilização das ferramentas Git e GitHub no repositório "RonaldKSilva/senai-versoes-colaboracoes"
+
 2. Foram necessários os comandos:
 ``` 
 git init
