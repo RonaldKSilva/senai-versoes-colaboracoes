@@ -2,6 +2,8 @@
 
 *Aluno: Ronald Kelley da Silva*
 
+**RonaldKSilva/senai-versoes-colaboracoes/tree/master**
+
 1. Foi realizada a Atividade do Encontro Remoto 01 da UC 07 exercitando na prática a utilização das ferramentas Git e GitHub:
  
 2. Foram aplicadas as funções para criação e utilização de novas branch nos repositórios local e remoto;
