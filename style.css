@@ -99,12 +99,18 @@ header {
     width: 1200px;
     background-color: black;
 }
+.conteudo-produtos {
+    margin-bottom: 0;
+    padding: 20px;
+    display: flex;
+    width: auto;
+    background-color: white;
+}
 .banner {
     padding-top: 20px;
     width: 600px;
     height: auto;
     align-items: center;
-    /*background-image: banner01.png;*/
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -135,6 +141,15 @@ header {
     align-items: center;
     height: 100%; 
 }
+.opçoes-produtos_col {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; 
+}
 .imagem-produto {
     height: 150px;
 }
@@ -143,10 +158,11 @@ header {
     align-items: center;
 }
 .conheca-produtos {
+    height: 40px;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px;
     font-family: sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -157,6 +173,12 @@ header {
     font-weight: 400;
     font-size: 18px;
     color: white;
+}
+.nome-produto-opcao {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
 }
 .opções-home {
     margin-bottom: 0;
@@ -246,6 +268,19 @@ header {
 .norton {
     padding: 10px;
     height: 70px;
+}
+.backhome {
+    margin-bottom: 0;
+    padding-top: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    background-color: black;
+}
+.botao-backtohome {
+    padding: 0px;
 }
 .rodape {
     padding: 10px;
