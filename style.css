@@ -1,3 +1,10 @@
+/*
+SENAI PFS T2
+Ronald Kelley da Silva
+UC 09 SA2 Atividade 02
+Aplicação de estilos para home pages resposivas
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +75,7 @@ header {
     color: darkred;
 }
 .cabecalho-texto {
-    font-family: sans-serif
+    font-family: sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: white;
@@ -91,8 +98,9 @@ header {
 .conteudo-produtos {
     margin-bottom: 0;
     padding: 10px;
-    display: flex;
     width: auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     background-color: white;
@@ -137,10 +145,11 @@ header {
 }
 .opçoes-produtos_col {
     padding: 20px;
-    width: 33%;
+    width: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     height: 100%; 
 }
@@ -386,10 +395,14 @@ header {
     .img-banner {
         width: 400px;
         height: 100%;
-        /*appearance: 1 1 200px;*/
     }
     .icones {
         flex-wrap: wrap;
+    }
+    .conteudo-produtos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (max-width: 320px){
