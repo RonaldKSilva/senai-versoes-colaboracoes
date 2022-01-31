@@ -1,0 +1,412 @@
+/*
+SENAI PFS T2
+Ronald Kelley da Silva
+UC 09 SA2 Atividade 02
+Aplicação de estilos para home pages resposivas
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    padding: 10px;
+    width: auto;
+    background: black;
+}
+header {
+    height: 40px;
+    width: auto;
+    background-color: #c2c1c196;
+}
+.cabecalho {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.menu-bars {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.pesquisa {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.conta-acesso {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.pesquisa-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.login {
+    width: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalho-home {
+    font-family: Cambria;
+    font-weight: 400;
+    font-size: 18px;
+    color: darkred;
+}
+.cabecalho-texto {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.apresenta-produtos {
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    background-color: black;
+}
+.conteudo-principal {
+    margin-bottom: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-around;   
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.conteudo-produtos {
+    margin-bottom: 0;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.banner {
+    padding: 10px;
+    display:flex;
+    width: 600px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.produtos {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-position: center;
+    align-items: center;
+    height: 100%;
+}
+.produtos_1col {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; 
+}
+.produtos_2col {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; 
+}
+.opçoes-produtos_col {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%; 
+}
+.img-banner {
+    width: 600px;
+    height: 100%;
+    align-items: center; 
+}
+.imagem-produto {
+    height: 150px;
+}
+.anuncia-produtos {
+    width: 50%;
+    align-items: center;
+}
+.conheca-produtos {
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: red;
+}
+.nome-produto {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.nome-produto-opcao {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.opções-home {
+    margin-bottom: 0;
+    padding-top: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    background-color: black;
+}
+.coluna-opção1 {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.coluna-opção2 {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.coluna-opção3 {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.coluna-opção4 {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.consultoria {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.comprar {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    color: white;
+}
+.parcelamento {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.seguranca-digital {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    color: white;
+}
+.consultoria-especilizada {
+    height: 70px;
+    align-items: center;
+}
+.email-game_mania {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.compre_online {
+    padding: 10px;
+    height: 70px;
+}
+.card {
+    padding: 10px;
+    height: 70px;
+}
+.norton {
+    padding: 10px;
+    height: 70px;
+}
+.backhome {
+    margin-bottom: 0;
+    padding-top: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    background-color: black;
+}
+.botao-backtohome {
+    padding: 0px;
+}
+.rodape {
+    padding: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    background-color: rgb(7, 7, 58);
+}
+.conheca-empresa {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.links-empresa {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;   
+}
+.conheca-lojas {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.siga {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;   
+}
+.icones {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;   
+}
+.empresa {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.rodape-menu-item {
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center; 
+}
+.lojas {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.redes {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.social {
+    padding: 10px;
+    height: 70px;
+}
+@media screen and (max-width: 768px){
+    .conta-acesso {
+        padding-top: 10px;
+    }
+    .body {
+        max-width: 600px;
+    }
+    .conteudo-principal {
+        max-width: 600px;
+    }
+    .banner {
+        width: 400px;
+    }
+    .img-banner {
+        width: 400px;
+        height: 100%;
+    }
+    .icones {
+        flex-wrap: wrap;
+    }
+    .conteudo-produtos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 320px){
+    header {
+        background-color: rgb(68, 60, 185);
+    }
+}
