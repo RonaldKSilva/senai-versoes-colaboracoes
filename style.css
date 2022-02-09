@@ -467,7 +467,9 @@ header {
 .btn-confirma:hover {
     background-color: rgba(236, 214, 196, 0.53);
 }
-
+.menu-ativo {      /* Para aplicação do jQuery */
+    display: flex;
+}
 @media screen and (max-width: 768px){
     .conta-acesso {
         padding-top: 10px;
@@ -496,6 +498,40 @@ header {
 }
 @media screen and (max-width: 320px){
     header {
-        background-color: rgb(68, 60, 185);
+        height: 40px;
+        width: auto;
+        background-color: #c2c1c196;
+    }
+    .conta-acesso {
+        padding-top: 10px;
+    }
+    .body {
+        max-width: 320px;
+    }
+
+    .conteudo-principal {
+        max-width: 320px;
+    }
+    .banner {
+        width: 300px;
+    }
+    .img-banner {
+        width: 300px;
+        height: 100%;
+    }
+    .produtos {
+        width: 300px;
+    }
+    .opçoes-produtos_col {
+        width: 300px;
+    }
+    .icones {
+        flex-wrap: wrap;
+    }
+    .conteudo-produtos {
+        max-width: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

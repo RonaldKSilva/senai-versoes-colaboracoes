@@ -3,19 +3,32 @@
 // Ronald Kelley da Silva
 // HomePage da Loja Game Mania
 
-function abrirmenu() {
+// Utilização do jQuery para utilização do menu:
 
-    let menugamemania = document.getElementById("menugamemania");
+$(document).ready(function(){
 
-    if(getComputedStyle(menugamemania).display != "flex") {
+    $("#barras").click(function() {
 
-        menugamemania.style.display = "flex";
+        $("#menugamemania").toggleClass("menu-ativo")
 
-    } else {
+    })
+})
+
+// Utilização do menu sem o jQuery:
+
+// function abrirmenu() {
+
+//    let menugamemania = document.getElementById("menugamemania");
+
+//    if(getComputedStyle(menugamemania).display != "flex") {
+
+//        menugamemania.style.display = "flex";
+
+//    } else {
         
-        menugamemania.style.display = "none";
-    }
-}
+//        menugamemania.style.display = "none";
+//    }
+// }
 
 function janelalogin(URL) {
     window.open(URL, 'janela', 'width=300, height=400, top=200, left=200, scrollbars=no, status=no, toolbar=no, location=no, menubar=no, resizable=no, fullscreen=no')
