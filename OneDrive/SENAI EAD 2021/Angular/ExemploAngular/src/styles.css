@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.conheca-produtos {
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: red;
+}
+.apresenta-produtos {
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    background-color: black;
+}
+.conteudo-produtos {
+    margin-bottom: 0;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.opçoes-produtos_col {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%; 
+}
+.nome-produto-opcao {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+.backhome {
+    margin-bottom: 0;
+    padding-top: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    background-color: black;
+}
+.botao-backtohome {
+    padding: 0px;
+}
+.body-form {
+    font-size: 100%;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    width: auto;
+    background: darkgray;
+}
+.btn-confirma {
+    background-color: rgb(72, 72, 75);
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}
+.btn-confirma:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.form-title {
+    margin-bottom: 0;
+    padding-top: 10px;
+    width: auto;
+    height: 100%;
+    background-color: darkgray;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: navy;
+}
+.form-ask {
+    margin-bottom: 0;
+    width: auto;
+    background-color: darkgray;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}

@@ -1,0 +1,37 @@
+<Section class="body-form">
+
+<h1 class="form-title" > LOGIN DE USUÁRIO: </h1>
+    
+    <div class="formulariocadastro"> <!-- Utilizando parcialmente Bootstrap -->
+    
+        <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+
+            <label for="email">E-mail:</label> <br>
+            <input type="email" id="email" name="email" size="50" maxlength="50" required autocomplete [(ngModel)]="loginModel.email">
+            <br>
+            <label for="senha">Senha (08 caracteres):</label> <br>
+            <input type="password" id="password" name="password" maxlength="8" required autocomplete [(ngModel)]="loginModel.password">
+            <br>
+        
+            <div style="float:left">
+                <input type="submit" id="btn-enviar" class="btn-confirma" name="btn-enviar" required >
+            </div>
+        
+        </form>
+
+    </div>
+
+<!--
+    <button onclick="log_console()"></button>
+    <script>
+        function log_console() {
+          var MyElement = {
+              Product: "Coca Cola",
+              Type: "Beverage"
+          };
+          console.log(MyElement);
+        }
+    </script>
+-->    
+</Section>
+

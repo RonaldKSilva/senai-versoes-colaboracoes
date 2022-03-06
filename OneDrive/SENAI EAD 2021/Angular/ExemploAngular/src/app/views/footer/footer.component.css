@@ -1,0 +1,87 @@
+.rodape {
+    padding: 10px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    background-color: rgb(7, 7, 58);
+}
+.conheca-empresa {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.links-empresa {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;   
+}
+.conheca-lojas {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;   
+}
+.siga {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;   
+}
+.icones {
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;   
+}
+.empresa {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.rodape-menu-item {
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center; 
+}
+.lojas {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.redes {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.social {
+    padding: 10px;
+    height: 70px;
+}
